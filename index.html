@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Athletiq</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo" onclick="location.href = '#hero'">
+        <p>Athleti<span class="highlight">q</span></p>
+      </div>
+      <nav>
+        <ul class="links">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#ai-coach" class="nav-link">AI Coach</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+        <i class="fa-solid fa-bars hamburger"></i>
+      </nav>
+    </header>
+    <section id="hero" class="hero">
+      <div class="hero-text">
+        <span class="badge">AI Fitness Platform</span>
+
+        <h1>Train <span class="highlight">Smarter,</span> not Harder.</h1>
+
+        <p>Personalized AI workout plans that adapt as you progress.</p>
+        <p>
+          Build strength, stay consistent, and achieve more with smarter
+          training.
+        </p>
+
+        <div class="cta">
+          <button class="primary">Get Started</button>
+          <button class="secondary">Watch Demo</button>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img src="./assets/images/hero-image.png" alt="hero image" />
+      </div>
+    </section>
+    <section id="features">
+      <div class="whitespace"></div>
+      <h2 class="heading">
+        Why Train With Athleti<span class="highlight">q</span>?
+      </h2>
+      <p class="description">
+        Personalized tools, smart insights, and AI-powered guidance built to
+        help you train smarter every day.
+      </p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fa-solid fa-dumbbell"></i>
+          <h2>Personalized Workouts</h2>
+          <p>
+            AI-generated workout plans tailored to your goals, fitness level,
+            and progress.
+          </p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-microchip"></i>
+          <h2>AI Coach</h2>
+          <p>
+            Get smart training guidance and recommendations that adapt as you
+            improve.
+          </p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-solid fa-chart-line"></i>
+          <h2>Real-Time Analytics</h2>
+          <p>
+            Track workouts, performance, and milestones with real-time fitness
+            insights.
+          </p>
+        </div>
+        <div class="feature-card">
+          <i class="fa-brands fa-nutritionix"></i>
+          <h2>Smart Calorie Tracking</h2>
+          <p>
+            Monitor calories burned and stay aligned with your nutrition goals.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="ai-coach">
+      <div class="whitespace"></div>
+      <div class="">
+        <h2 class="heading">
+          Meet <span class="highlight">AQ</span>, Your AI Fitness Coach
+        </h2>
+        <p class="description">
+          AQ analyzes your workouts, recovery, and goals to deliver smarter
+          fitness guidance in real time. Get personalized recommendations,
+          actionable insights, and the motivation to keep improving.
+        </p>
+      </div>
+
+      <div class="phone-ui">
+        <div class="screen">
+          <div class="top-bar">
+            <span class="time">11:45am</span>
+            <div class="capsule"></div>
+            <span class="icons">
+              <i class="fa-solid fa-signal"></i>
+              <i class="fa-solid fa-wifi"></i>
+              <i class="fa-solid fa-battery-half"></i>
+            </span>
+          </div>
+          <div class="chat-options">
+            <div class="back-button chat-icon">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="chat-details">
+              <div class="ai-icon">
+                <i class="fa-solid fa-microchip"></i>
+              </div>
+              <div class="ai-text">
+                <span class="ai-name highlight">AQ</span>
+                <span class="ai-active">
+                  <span class="green-dot"></span> Online</span
+                >
+              </div>
+            </div>
+            <div class="chat-settings chat-icon">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+          </div>
+          <div class="chat-message">
+            <div class="whitespace"></div>
+            <span class="message"
+              >I didn't work out today, because I felt too tired.😔
+              <span class="message-time">11:44am ✓✓</span>
+            </span>
+          </div>
+
+          <div class="chat-message ai-message">
+            <span class="message">
+              No worries, I've adjusted your workout plan to keep you on track
+              without going overboard. Here's what I've changed:
+
+              <div class="ai-changes">
+                <div class="change">
+                  <i class="fa-solid fa-dumbbell"></i>
+                  <p>Switched to recovery mode</p>
+                </div>
+                <div class="change">
+                  <i class="fa-brands fa-nutritionix"></i>
+                  <p>Calories Target Reduced</p>
+                </div>
+                <div class="change">
+                  <i class="fa-solid fa-heart-circle-bolt"></i>
+                  <p>Cardio rescheduled to 1:00pm</p>
+                </div>
+              </div>
+              <span class="ai-message-time message-time">11:44am ✓✓</span>
+            </span>
+          </div>
+          <div class="apply-changes">
+            <i class="fa-solid fa-diamond"></i>
+            <span>Apply Changes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews">
+      <div class="whitespace"></div>
+      <h2 class="heading">
+        Loved by <span class="highlight">Athletes</span> and
+        <span class="highlight">Beginners</span> Alike
+      </h2>
+      <p class="description">
+        Whether you're starting your fitness journey or pushing toward new
+        goals, Athletiq helps you stay on track every step of the way.
+      </p>
+
+      <div class="reviews-grid">
+        <div class="review">
+          <div class="review-avatar">
+            <img
+              loading="lazy"
+              src="./assets/images/young-man-with-charming-smile-blue-eyes-posing.jpg"
+              alt="review avatar"
+            />
+          </div>
+          <p class="review-text">
+            “Athletiq helped me stay consistent with my workouts for the first
+            time in months. The AI recommendations actually feel personalized.”
+          </p>
+          <p>— Daniel K.</p>
+        </div>
+        <div class="review">
+          <div class="review-avatar">
+            <img
+              loading="lazy"
+              src="./assets/images/portrait-beautiful-young-woman.jpg"
+              alt="review avatar"
+            />
+          </div>
+          <p class="review-text">
+            “AQ feels like having a fitness coach in my pocket. I love how the
+            workouts adapt based on my progress.”
+          </p>
+          <p>— Sarah M.</p>
+        </div>
+        <div class="review">
+          <div class="review-avatar">
+            <img
+              loading="lazy"
+              src="./assets/images/vertical-shot-attractive-african-american-man-posing-smiling.jpg"
+              alt="review avatar"
+            />
+          </div>
+          <p class="review-text">
+            “The daily insights and reminders genuinely helped me build better
+            workout habits.”
+          </p>
+          <p>— Michael B.</p>
+        </div>
+      </div>
+    </section>
+    <section id="pricing">
+      <div class="whitespace"></div>
+      <h2 class="heading">
+        Flexible <span class="highlight">Plans</span> for Every Goal
+      </h2>
+      <p class="description">
+        Access AI-powered coaching, personalized workouts, and smart fitness
+        tracking with flexible plans for every user.
+      </p>
+      <div class="plans">
+        <div class="pricing-card">
+          <span class="plan-name">Basic</span>
+          <div class="price"><span class="price-large">$0</span> per month</div>
+          <ul class="plan-features">
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Basic workout plans
+            </li>
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              AI recommendations
+            </li>
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Progress tracking
+            </li>
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Community access
+            </li>
+          </ul>
+          <div class="plan-button">Get Started</div>
+        </div>
+        <div class="pricing-card pro-card">
+          <span class="plan-name">Pro</span>
+          <div class="price">
+            <span class="price-large">$12</span> per month
+          </div>
+          <ul class="plan-features">
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Everything in Basic
+            </li>
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Advanced AI coaching
+            </li>
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Nutrition tracking
+            </li>
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Recovery insights
+            </li>
+          </ul>
+          <div class="plan-button">Start Pro Plan</div>
+        </div>
+        <div class="pricing-card elite-card">
+          <span class="plan-name">Elite</span>
+          <div class="price">
+            <span class="price-large">$24</span> per month
+          </div>
+          <ul class="plan-features">
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Everything in Pro
+            </li>
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Priority AI support
+            </li>
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Early access features
+            </li>
+            <li>
+              <span class="plan-icon"><i class="fa-solid fa-check"></i></span>
+              Advanced analytics
+            </li>
+          </ul>
+          <div class="plan-button">Go Elite</div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="logo" onclick="location.href = '#hero'">
+        <p>Athleti<span class="highlight">q</span></p>
+        <p class="tagline">Smarter fitness powered by AI.</p>
+      </div>
+      <div class="quicklinks">
+        <h3 class="highlight">Quick Links</h3>
+        <div class="footer-links">
+          <li><a href="#features" class="">Features</a></li>
+          <li><a href="#ai-coach" class="">AI Coach</a></li>
+          <li><a href="#reviews" class="">Reviews</a></li>
+          <li><a href="#pricing" class="">Pricing</a></li>
+        </div>
+      </div>
+      <p class="copyright"></p>
+    </footer>
+    <script src="script.js" defer></script>
+    <script>
+      const date = new Date().getFullYear();
+      document.querySelector(".copyright").textContent =
+        "© " + date + "  Emmanuel Paul";
+    </script>
+  </body>
+</html>
